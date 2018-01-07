@@ -1,16 +1,20 @@
 # An HTML to AMP markup converter for PHP
 
-Usage:
+### Usage:
 
-// create a new instance of ampifier
+Create a new instance of ampifier
+```
 $ampifier = new ContentAmpifier();
+```
 
-// grab your html content from any source
+Grab your html content from any source
+```
 $html = "<html>...</html>";
-
-// convert it to amp
+```
+Convert it to amp
+```
 $amp = $ampifier->ampify($html);
-
+```
 
 This code is free to use. Please feel free to comment, add your suggestions etc.
 And you happen to use it in any project, I would be happy to know.
